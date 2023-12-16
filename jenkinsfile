@@ -5,7 +5,7 @@ node{
         //     sh "chmod +x test.sh"
         //     sh "sh test.sh 3"
         // }
-        git branch: 'main', credentialsId: 'github', url: 'https://github.com/Siddeshg672/testshell.git'
+        git branch: 'main', credentialsId: 'github', url: 'https://github.com/dharmegowda21/github.git'
         sh "chmod +x test.sh"
         sh "sh test.sh 6"
     }
@@ -20,7 +20,7 @@ pipeline{
     stages{
         stage('checkout'){
            steps{
-               git branch: 'main', url: 'https://github.com/Siddeshg672/hello_world_public_war.git'
+               git branch: 'main', url: 'https://github.com/dharmegowda21/github.git'
            }
         }
 
